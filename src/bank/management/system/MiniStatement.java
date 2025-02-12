@@ -17,7 +17,7 @@ public class MiniStatement extends JFrame {
         add(mini);
         mini.setBounds(20,140,400,200);
         
-        JLabel bank = new JLabel("INDIAN BANK");
+        JLabel bank = new JLabel("BANK OF BHARAT");
         bank.setBounds(150,20,100,20);
         add(bank);
         
@@ -79,7 +79,7 @@ public class MiniStatement extends JFrame {
         setTitle("MINI STATEMENT");
         setSize(400,600);
         setLocation(20,20);
-        getContentPane().setBackground(Color.WHITE);
+        getContentPane().setBackground(new Color(222,255,228));
         setVisible(true);
         
         

@@ -168,7 +168,7 @@ class SignupOne extends JFrame implements ActionListener{
         next.addActionListener(this);
         
         setLayout(null);
-        getContentPane().setBackground(Color.WHITE);
+        getContentPane().setBackground(new Color(222,255,228));
         setSize(850,800);
         setLocation(350,10);
         setVisible(true);
@@ -202,12 +202,11 @@ class SignupOne extends JFrame implements ActionListener{
             {
                 JOptionPane.showMessageDialog(null, "Name is Required");
             }
-            //you can add more validations
+            //We can add more validations
             else{
                 Conn c = new Conn();
                 String query = "insert into signup values('"+formno+"', '"+name+"', '"+fname+"', '"+dob+"', '"+gender+"', '"+email+"', '"+marital+"', '"+address+"', '"+city+"', '"+pin+"', '"+state+"');";
                 c.s.executeUpdate(query);
-                
                 setVisible(false);
                 new SignupTwo(formno);
             }
