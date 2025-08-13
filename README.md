@@ -3,7 +3,7 @@
 
 ## Overview
 
-The **Bank Management System**, also known as **ATM Simulator**, is a Java-based desktop application that allows users to manage their bank accounts through a simple and user-friendly graphical interface. The system provides essential banking functionalities such as account creation, deposits, withdrawals, PIN management, balance enquiry, and transaction history.
+The **Bank Management System**, also known as **ATM Simulator**, is a Java-based application that allows users to manage their bank accounts through a simple and user-friendly graphical interface. The system provides essential banking functionalities such as account creation, deposits, withdrawals, PIN management, balance enquiry, and transaction history.
 
 ## Features
 
